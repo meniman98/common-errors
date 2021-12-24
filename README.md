@@ -46,3 +46,7 @@ Remove these 2
             <scope>provided</scope>
         </dependency>
 ```
+
+Update 24/12/2021
+
+Turns out perform a mvn install, invalidating the caches then restarting on intellij has solved the problem. Perhaps it has nothing to do with the dependencies
